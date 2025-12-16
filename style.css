@@ -91,11 +91,11 @@ h1 {
 
 /* Responsive Styles für das Grid */
 @media (max-width: 600px) {
-  .grid {
-    grid-template-columns: repeat(6, 1fr) 10px repeat(4, 1fr); /* Kleinere Lücke */
-    grid-gap: 3px; /* Weniger Abstand zwischen den Zellen */
-    margin-bottom: 20px;
-  }
+    .grid {
+  grid-template-columns: repeat(6, 1fr); /* bleibt 6 */
+  grid-gap: 3px;
+  margin-bottom: 20px;
+}
 
   .cell {
     width: 30px; /* Kleinere Zellen */
